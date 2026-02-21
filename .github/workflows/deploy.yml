@@ -34,7 +34,7 @@ jobs:
           
       - name: Install dependencies
         # If you don't have a package-lock.json yet, change this to `npm install`
-        run: npm ci 
+        run: npm install
         
       - name: Build project
         run: npm run build
