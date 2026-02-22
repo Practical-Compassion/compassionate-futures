@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import heroImage from "@/assets/hero-children.jpg";
 import { Heart, BookOpen, Stethoscope, HandHeart, ArrowRight } from "lucide-react";
 
@@ -87,6 +88,21 @@ const HelpSection = () => (
   </section>
 );
 
+const PayPalButton = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (containerRef.current && (window as any).paypal) {
+      containerRef.current.innerHTML = "";
+      (window as any).paypal.HostedButtons({
+        hostedButtonId: "ATHM9JN35LA8J",
+      }).render(containerRef.current);
+    }
+  }, []);
+
+  return <div ref={containerRef} />;
+};
+
 const CTASection = () => (
   <section className="section-padding bg-primary text-primary-foreground">
     <div className="max-w-4xl mx-auto text-center">
@@ -96,10 +112,16 @@ const CTASection = () => (
       <p className="text-lg font-body font-light opacity-90 mb-8 max-w-2xl mx-auto">
         Your contribution gives children in Palestine increased opportunities to earn a good living and serve their community. Every gift makes a difference.
       </p>
-      <a href="https://www.justgiving.com/charity/practicalcompassionfordestitutechildren" target="_blank" rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-10 py-4 rounded-lg font-body font-semibold text-lg hover:brightness-110 transition-all">
-        <Heart className="w-5 h-5" /> Donate via JustGiving
-      </a>
+      <div className="flex flex-col items-center gap-6">
+        <a href="https://www.justgiving.com/charity/practicalcompassionfordestitutechildren" target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-10 py-4 rounded-lg font-body font-semibold text-lg hover:brightness-110 transition-all">
+          <Heart className="w-5 h-5" /> Donate via JustGiving
+        </a>
+        <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm">
+          <p className="text-sm font-body opacity-80 mb-4">Or donate via PayPal</p>
+          <PayPalButton />
+        </div>
+      </div>
     </div>
   </section>
 );
