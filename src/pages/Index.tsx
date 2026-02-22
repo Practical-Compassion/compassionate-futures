@@ -19,9 +19,12 @@ const HeroSection = () =>
         Supporting children in crisis in Palestine through tailored education funding, prayer, and practical compassion.
       </p>
       <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: "0.45s" }}>
-        
-
-
+        <a href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-body font-semibold text-lg hover:brightness-110 transition-all">
+          <Heart className="w-5 h-5" /> Donate
+        </a>
 
         <a href="#mission"
       className="inline-flex items-center gap-2 border-2 border-sand-light/40 text-primary-foreground px-8 py-4 rounded-lg font-body font-semibold text-lg hover:bg-primary-foreground/10 transition-all">

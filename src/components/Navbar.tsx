@@ -32,15 +32,16 @@ const Navbar = () => {
               "text-secondary font-semibold" :
               "text-primary-foreground/70 hover:text-primary-foreground"
             )}>
-
               {l.label}
             </Link>
           )}
-          
-
-
-
-
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2 rounded-lg font-body font-semibold text-sm hover:brightness-110 transition-all">
+            <Heart className="w-4 h-4" /> Donate
+          </a>
 
 
 
@@ -75,11 +76,10 @@ const Navbar = () => {
             </Link>
         )}
           <a
-          href="https://www.justgiving.com/charity/practicalcompassionfordestitutechildren"
+          href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2 rounded-lg font-body font-semibold text-sm hover:brightness-110 transition-all w-fit">
-
             <Heart className="w-4 h-4" /> Donate
           </a>
         </nav>
