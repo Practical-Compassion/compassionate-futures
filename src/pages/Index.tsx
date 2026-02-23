@@ -19,7 +19,7 @@ const HeroSection = () =>
         Supporting children in crisis in Palestine through tailored education funding, prayer, and practical compassion.
       </p>
       <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: "0.45s" }}>
-        <a href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
+        <a href="https://www.paypal.com/donate?hosted_button_id=N5KTXVMNU2BLN"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-body font-semibold text-lg hover:brightness-110 transition-all">
@@ -98,7 +98,7 @@ const PayPalButton = () => {
     if (containerRef.current && (window as any).paypal) {
       containerRef.current.innerHTML = "";
       (window as any).paypal.HostedButtons({
-        hostedButtonId: "ATHM9JN35LA8J"
+        hostedButtonId: "N5KTXVMNU2BLN"
       }).render(containerRef.current);
     }
   }, []);
