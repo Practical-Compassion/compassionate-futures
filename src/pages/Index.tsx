@@ -115,10 +115,25 @@ const CTASection = () =>
       <p className="text-lg font-body font-light opacity-90 mb-8 max-w-2xl mx-auto">
         Your contribution gives children in Palestine increased opportunities to earn a good living and serve their community. Every gift makes a difference.
       </p>
-      <div className="flex flex-col items-center gap-6">
-        <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm">
-          <p className="text-sm font-body opacity-80 mb-4">Donate via PayPal</p>
-          <PayPalButton />
+      <div className="flex flex-col sm:flex-row justify-center gap-6">
+        {/* Bank Transfer Details */}
+        <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm text-left">
+          <p className="text-sm font-body font-semibold mb-4">Donate by Bank Transfer</p>
+          <div className="font-body text-sm space-y-1.5">
+            <p><span className="opacity-70">Bank:</span> Barclays</p>
+            <p><span className="opacity-70">Account:</span> Practical Compassion for Destitute Children</p>
+            <p><span className="opacity-70">Account No.:</span> 40165948</p>
+            <p><span className="opacity-70">Sort code:</span> 20-62-09</p>
+            <p><span className="opacity-70">Reference:</span> Your surname</p>
+          </div>
+        </div>
+        {/* PayPal */}
+        <div className="bg-primary-foreground/10 rounded-xl p-6 backdrop-blur-sm flex flex-col items-center justify-center">
+          <p className="text-sm font-body font-semibold mb-4">Donate via PayPal</p>
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="N5KTXVMNU2BLN" />
+            <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" className="hover:brightness-110 transition-all" />
+          </form>
         </div>
       </div>
     </div>
