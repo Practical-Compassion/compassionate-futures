@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           )}
           <a
-            href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
+            href="https://www.paypal.com/donate?hosted_button_id=N5KTXVMNU2BLN"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2 rounded-lg font-body font-semibold text-sm hover:brightness-110 transition-all">
@@ -76,7 +76,7 @@ const Navbar = () => {
             </Link>
         )}
           <a
-          href="https://www.paypal.com/donate/?hosted_button_id=ATHM9JN35LA8J"
+          href="https://www.paypal.com/donate?hosted_button_id=N5KTXVMNU2BLN"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2 rounded-lg font-body font-semibold text-sm hover:brightness-110 transition-all w-fit">
