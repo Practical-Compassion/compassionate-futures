@@ -1,6 +1,6 @@
 import { ArrowLeft, Download, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
-import newsletterImg from "@/assets/newsletter-header.jpg";
+import newsletterImg from "@/assets/newsletter-header-spring2026.jpg";
 
 const Newsletter = () => (
   <>
@@ -11,7 +11,7 @@ const Newsletter = () => (
           <ArrowLeft className="w-4 h-4" /> Back to Home
         </Link>
         <a
-          href="/newsletters/PCDC_Newsletter_Nov25-1.docx"
+          href="/newsletters/PCDC_Newsletter_March_2026.pdf"
           download
           className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2 rounded-lg font-body font-semibold text-sm hover:brightness-110 transition-all"
         >
@@ -27,7 +27,7 @@ const Newsletter = () => (
         <div className="text-center mb-10">
           <p className="text-secondary font-body text-sm uppercase tracking-[0.2em] mb-2">Newsletter</p>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-2">
-            Early Winter Newsletter 2025
+            Early Spring Newsletter 2026
           </h1>
           <p className="text-muted-foreground font-body">
             Practical Compassion for Destitute Children — Registered Charity No. 1076588
@@ -43,28 +43,29 @@ const Newsletter = () => (
         <section className="mb-12">
           <p className="text-muted-foreground font-body italic mb-6">Dear Friends,</p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            Since our last Newsletter, we have had our busiest time of the year. The school year in Palestine begins in late August, when (as in the UK) children start school and those who were on the school roll until the summer move on to the next stage of their education, or seek their first job. With the help of the schools themselves, the trustees seek to identify the children most deserving of our support and formally agree the grants in our November meeting so that the schools can receive the money by the end of the year.
+            Most people I meet are feeling wearied by this long, grey winter. I cannot remember a new year bringing so many days of rain, wind and cold. And here in the North East we have fared better than many other parts of the country. Meanwhile we turn on the television news, or reach for a newspaper, and are made instantly and vividly aware of what life is like in the Middle East, or Ukraine, or many other parts of the world.
           </p>
-
-          <h2 className="text-2xl font-display font-bold text-foreground mt-8 mb-4">Good News This Year</h2>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            We are very pleased to report that we were able this year to increase our grants to the children significantly. This is because the level of support from you – our friends and supporters – has been around 20% higher. It felt good to be able to give grants so much nearer what they were before last year's 'blip'! We have limited the number of new children we have taken on and tried to match the grants to the needs of each family, so far as we know them. Thank you all not only for your continued support, but in many cases for giving more. And thank you to those who have joined us, either with one-off gifts or more regular contributions.
+            At least we can do something! I feel on the one hand that we know we are doing something through the work of PCDC, though it sometimes feels like a drop in the ocean. And together we are making a difference to one young life after another. It was so gratifying to see our contributions increasing rather than decreasing in 2025. Thank you so much for that!
+          </p>
+          <p className="text-foreground font-body leading-relaxed mb-4">
+            On the other hand, seeing how life has become more precarious than ever for some of our Palestinian families leaves me longing for a sort of springtime, a time of new hope and stability for the families and for the schools. When parents have been unable to get to work for months, their income simply vanishes. When tourists and pilgrims have been unable to visit Palestine, the shops and cafes they would have been patronising simply stay shut.
           </p>
 
           <h2 className="text-2xl font-display font-bold text-foreground mt-8 mb-4">Our 30th Birthday</h2>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            PCDC came to life during 1996. There was not an official launch, just a gradual development during that year of the work which has been going on ever since. We are going to celebrate that landmark some time next spring/early summer with a party to which you will be invited! Please watch for further details in our next Newsletter early in the New Year.
-          </p>
-          <p className="text-foreground font-body leading-relaxed mb-4">
-            Another way we shall observe reaching this point will be by compiling and publishing a commemorative booklet, including a short history of PCDC, and reflections on what has been happening down the years from those in the UK and in Palestine. Have you memories or impressions you would like to share? If you have, I shall be delighted to receive them in the next few weeks. We are not looking for long essays, just anecdotes and memories.
+            PCDC came to life during 1996. There was not an official launch, just a gradual development during that year of the work which has been going on ever since. We are going to celebrate that landmark sometime next spring/early summer with a Party to which you will be invited! We hope the date for the party can be agreed in the next week or two. At present, we are considering Saturday afternoons in June.
           </p>
 
-          <h2 className="text-2xl font-display font-bold text-foreground mt-8 mb-4">Ongoing Challenges</h2>
+          <h2 className="text-2xl font-display font-bold text-foreground mt-8 mb-4">Palestine on the Alert</h2>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            You have greatly encouraged us by this year's rise in our income. However, three of the four trustees are in their late 70s and early 80s and, if PCDC is to continue in its current form, we desperately need some younger trustees. If you are, or know of anyone who may be, interested to get involved with the charity in whatever capacity, please get in touch with me.
+            While we wait anxiously to see whether the fragile cease-fire will hold in Gaza and the long process of rebuilding will begin, the situation in Palestine has in some ways grown more tense. We continue to hear about the advance of the settlers, and the way we shall observe our 30th birthday will be by compiling and publishing a commemorative booklet, including a short history of PCDC, and reflections on what has been happening down the years from those in the UK and in Palestine. If you have stories, memories or impressions I shall be delighted to receive them in the next few weeks. We are not looking for long essays, just anecdotes and memories.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            I hope that this Newsletter will give you hope and encouragement that the work of PCDC is moving forward. Please share this with your friends, your church and with anyone who might like to support us. We give thanks that God continues to bless our work and the children who are enabled through it to learn and grow.
+            The booklet will be printed and distributed quite separately from our main funds, which will continue to be dedicated 100% for the assistance of destitute children in Palestine. We give thanks that God continues to bless our work and the children who are enabled through it to learn and grow.
+          </p>
+          <p className="text-foreground font-body leading-relaxed mb-4">
+            I hope that this Newsletter will give you hope and encouragement that the work of PCDC is keeping going amidst all the challenges.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-1">With my love and prayers,</p>
           <p className="text-foreground font-body font-semibold">Richard Hill</p>
@@ -77,49 +78,104 @@ const Newsletter = () => (
 
         {/* Malcolm's Update */}
         <section className="mb-12">
-          <h2 className="text-2xl font-display font-bold text-foreground mb-4">Malcolm's Update About Life in Palestine</h2>
+          <h2 className="text-2xl font-display font-bold text-foreground mb-4">Malcolm Writes About the Meaning of 'Destitution' in Our Name</h2>
           <p className="text-muted-foreground font-body italic mb-6">Dear Friends,</p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            So, there is a very fragile peace plan, thank God, for the people of Gaza. This is a most welcome and overdue step in the long history of conflict in the Middle East. Pray that it will last.
+            PCDC is a servant charity, not a political organization. We know that children everywhere deserve to grow up in safety, dignity, and freedom. The United Nations Convention on the Rights of the Child (UNCRC) sets out the fundamental rights that all children should enjoy, regardless of nationality, ethnicity, or circumstance. These standards are recognised worldwide, yet their observance varies between countries. While many nations strive to uphold the UNCRC, children in certain areas, including Israel and the occupied Palestinian territories, continue to face severe violations of their rights.
+          </p>
+
+          <h3 className="text-xl font-display font-bold text-foreground mt-8 mb-4">UN-Recognised Children's Rights</h3>
+
+          <div className="space-y-4 mb-6">
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">1. The right to life, survival, and development.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                Many children in Palestine have lost their lives in the last few years of conflict. In the area where PCDC works, this has not affected so many children, but many children who we know have lost their freedom to travel about, even in their own city, and have been denied all kinds of possibility of full development of their skills and needs.
+              </p>
+            </div>
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">2. The right to safety from harm and abuse.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                Everyone has the right to be protected from violence, abuse, and neglect, but this right has often been ignored. Violence is widespread; even older teenagers can feel unsafe walking outside. Children we know have been threatened by soldiers who broke into their home at night and threatened them with firearms.
+              </p>
+            </div>
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">3. The right to education.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                In Palestine the government schools cost less to attend but there are many problems. Huge classes (average 75 children per class) mean that children with special needs cannot be attended to. Christian and other private schools offer small classes (average 15 per class) with maximum attention to the needs of each child. PCDC works in 17 different schools and the education of children is our priority. We cover school fees for 170 children, in part or completely, according to each child's needs. Our annual budget for this is around £120,000.
+              </p>
+            </div>
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">4. The right to health and healthcare.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                Every child has a right to healthcare. In Palestine there has been much improvement, and the doctors and hospitals are doing the best they can. But they are often underequipped, and the doctors lack up-to-date training. PCDC will try to help any child who is unable to pay for medical help.
+              </p>
+            </div>
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">6. The right to play and leisure.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                Access to play, leisure, and a safe family environment is frequently disrupted by ongoing conflict. In Bethlehem there is only one playground for children. PCDC helped to repair unsafe equipment in this playground some years ago.
+              </p>
+            </div>
+            <div>
+              <p className="text-foreground font-body font-semibold mb-1">7. The right to family life and parental care.</p>
+              <p className="text-foreground font-body leading-relaxed">
+                Every child should have the ability to live with parents or other family members. There are too many children wandering in the streets. One child we know (aged 13) asked the police for permission to commit a crime so that he could spend a night in a cell, rather than in the street where he usually slept. PCDC was able to move him into a residential school.
+              </p>
+            </div>
+          </div>
+
+          <h3 className="text-xl font-display font-bold text-foreground mt-8 mb-4">The Role of PCDC</h3>
+          <p className="text-foreground font-body leading-relaxed mb-4">
+            PCDC is dedicated to defending and promoting the rights of children in Palestine. We work to support affected families, and our efforts focus especially on safeguarding children from violence, ensuring access to education and healthcare, and upholding the right to family life. By raising awareness, PCDC strives to ensure that children receive the protections they are entitled to under international law.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            People are always asking me how that will affect the people living in Bethlehem, or other parts of Palestine. The answer is that so far, it has made very little difference. Some things are better, and others are worse.
-          </p>
-          <p className="text-foreground font-body leading-relaxed mb-4">
-            Please don't believe everything you hear. Believe what people see.
-          </p>
-          <p className="text-foreground font-body leading-relaxed mb-4">
-            Sadly, we have heard inaccurate reports that prices for food are going down since the ceasefire was declared. However, eggs are £6 for 15, chicken costs anything up to £25 a kilo and petrol costs around £2 a litre. There is no sign that prices are coming down yet but we live in hope.
-          </p>
-          <p className="text-foreground font-body leading-relaxed mb-4">
-            What is worse is that the armed Israeli settlers are taking the law into their own hands, and raiding farms and homes in Palestine, causing great havoc, and sometimes killing people, without any punishment at all.
+            Protecting children's rights is a universal responsibility. The ongoing challenges faced by children in Palestine highlight the urgent need for global solidarity and action. By supporting organisations like PCDC, we can help children, regardless of where they live, to enjoy the rights and dignity they deserve. This is why we define Destitution as the denial to children of their rights.
           </p>
         </section>
 
         <div className="border-t border-border my-10" />
 
-        {/* Mariam's Story */}
+        {/* Jasmine's Story */}
         <section className="mb-12">
-          <h2 className="text-2xl font-display font-bold text-foreground mb-4">The Story of Mariam</h2>
+          <h2 className="text-2xl font-display font-bold text-foreground mb-4">Jasmine's Story</h2>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            Mariam (not her real name) started school at Latin Patriarchate School in Beit Sahour, in September 2013. We visited the school and paid £114 to register her for school, a legal requirement, and then paid fees of £300 in October 2013.
+            Sometimes God leads us in funny ways. When we are working in Bethlehem, we tend to travel in local taxis. These are not private taxis, but run along a route like buses do, and they are very quick and cheap, and will stop anywhere you ask them to. They are called service taxis and can take up to 12 passengers. On one trip we heard people talking in the town and the taxis about this young woman who had developed a kind of a cist which needed treating.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            Mariam was born in 2008 in Beit Sahour which is on the way to the Shepherds' Fields. She is of the Christian faith. Her father was generally not employed but occasionally had work as a cleaner of carpets and furniture. Mother qualified as a nurse. Mariam has an older sister and two younger brothers.
+            She was expecting her first son. She and her husband already had several daughters. They were looking forward to the little boy. The cist was a very small procedure. She went into the local hospital. They gave her an injection. Sadly, they gave her the wrong one. Within a few hours, she was dead. The little boy she was bearing also died. The family was broken in despair.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            PCDC called them to say that we would take full responsibility for the children's school-fees, and we also tried to find them a small flat to live in, where they would be safe and not overcharged. Mother's wages as a nurse were £156.25 a month. Rent is usually more than that. The family eventually settled in a small converted garage.
+            We felt God was calling us to go and minister to that family, if there was any way we could lighten the terrible burden that had come to them so suddenly. The father was beside himself in grief, and all the girls were stunned in unbelief at what had happened to their mother. The youngest girl, who was 5 years old, asked us when her Mummy would be coming back. We often carry trauma bears with us, and we had one, which we offered to Jasmine (not her real name) as a comfort.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            When we visited this family in their home in 2013, we were received with great kindness and were impressed by the behaviour of the children. This family could not afford for their children to attend such a good school without help and we were delighted to give the two eldest children from this destitute family the opportunity to go to school.
+            There would be the problem of school fees. Father was unemployed, soon to start a modest job at an Israeli supermarket. It wouldn't cover the girls' school fees. We made a plan: PCDC would pay half the school fees and Father John would help us to pay the other half. Meanwhile, the sister to be confirmed next day wanted to tell us about the confirmation, because she had been asked to do a Bible reading in the church, and she had been practising it, and wanted us to watch.
           </p>
           <p className="text-foreground font-body leading-relaxed mb-4">
-            Meanwhile, in the summer of 2025, at the age of 17, Mariam was offered a place on a school visit to France. There was no money to pay for this, so PCDC paid for part of the cost and we negotiated with the school and the French authorities to make it possible.
+            Sometimes, when we help families, it is for a long haul, but worth it, thanks to all our supporters. We are so grateful to you for making this ministry possible over many years.
           </p>
-          <p className="text-foreground font-body leading-relaxed mb-4">Thank you for your help in support of this child and her family.</p>
           <p className="text-foreground font-body font-semibold">Malcolm Jones</p>
           <p className="text-muted-foreground font-body text-sm mt-1">
             The Revd Malcolm Jones is a founding trustee of PCDC. Contact: malcolmjonespcdc@hotmail.com or 07743 546 180
+          </p>
+        </section>
+
+        <div className="border-t border-border my-10" />
+
+        {/* Middle East Situation */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-display font-bold text-foreground mb-4">What on Earth Are We to Make of the Present Situation in the Middle East?</h2>
+          <p className="text-foreground font-body leading-relaxed mb-4">
+            The first thing to say is that for the present generation of Palestinian children this is their first experience of full-on war. Children now are experiencing the deafening and terrifying sound of drones and ballistic missiles either flying over or crashing into buildings. Every school is closed at present; roads are closed and many new checkpoints have been set up. It is dangerous to be out of doors, so everyone is confined to their houses.
+          </p>
+          <p className="text-foreground font-body leading-relaxed mb-4 italic border-l-4 border-secondary pl-4">
+            'All the roads to and from Bethlehem have been closed. The sirens around us are sounding constantly. We do not know what is happening. We are only trying to reassure our children, who are innocent and have never seen a truly beautiful day.'
+          </p>
+          <p className="text-foreground font-body leading-relaxed mb-4 italic border-l-4 border-secondary pl-4">
+            'While the events of the last three years have been disruptive to our school, the violence that has erupted over the last few days is right in front of us day and night – threatening the welfare, and potentially the lives, of our children, their families and the school staff.'
+          </p>
+          <p className="text-foreground font-body leading-relaxed mb-4">
+            If you have a question about our activities and policies in PCDC, please don't hesitate to ask. We will be happy to provide answers and explanations either personally or in future Newsletters. Similarly, please be in touch if you have suggestions about how our work could be developed.
           </p>
         </section>
 
