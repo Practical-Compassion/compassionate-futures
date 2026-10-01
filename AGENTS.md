@@ -1,0 +1,2 @@
+Keep each prior newsletter as its own read-only route when featuring a newer issue; supporters need access to past editions without losing the latest at /newsletter.
+Store uploaded newsletter PDFs and extracted images as Lovable asset pointers; this keeps original downloads available without duplicating binary files in source control.
