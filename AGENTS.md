@@ -1,2 +1,3 @@
 Keep each prior newsletter as its own read-only route when featuring a newer issue; supporters need access to past editions without losing the latest at /newsletter.
 Store uploaded newsletter PDFs and extracted images as Lovable asset pointers; this keeps original downloads available without duplicating binary files in source control.
+Proxy asset URLs through the hosted preview in local development; Vite otherwise serves its HTML fallback for CDN asset paths, breaking download and images locally.
