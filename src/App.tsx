@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Index from "./pages/Index";
 import Newsletter from "./pages/Newsletter";
 import SpringNewsletter from "./pages/SpringNewsletter";
+import Leaflet from "./pages/Leaflet";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/newsletter" element={<Newsletter />} />
           <Route path="/newsletter/spring-2026" element={<SpringNewsletter />} />
+          <Route path="/leaflet" element={<Leaflet />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
