@@ -1,5 +1,6 @@
 import { ArrowLeft, Download, Heart, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 const junePdf = "/__l5e/assets-v1/95875d02-d9c7-443e-a072-652b4987748c/PCDC_Newsletter_June_26.pdf";
 const logo = "/__l5e/assets-v1/3cde9f25-19e8-40c4-8a8f-f93f5365c786/pcdc-newsletter-logo.jpg";
@@ -100,6 +101,7 @@ const Newsletter = () => (
           <Paragraph>If you have a question about our activities and policies, please don’t hesitate to ask. We will be happy to provide answers, personally or in future newsletters. Please also be in touch if you have suggestions about how our work could develop.</Paragraph>
           <a href="mailto:james@pcdcuk.com" className="inline-flex items-center gap-2 text-primary font-body underline"><Mail className="w-4 h-4" /> Contact PCDC</a>
         </Section>
+        <NewsletterSignup />
         <div className="mt-12 border-t border-border pt-8 flex flex-wrap items-center justify-between gap-4">
           <div><p className="font-body text-muted-foreground text-sm mb-1">Previous issue</p><Link to="/newsletter/spring-2026" className="font-body font-semibold text-primary underline">Read the Early Spring 2026 newsletter</Link></div>
           <a href="https://www.justgiving.com/charity/practicalcompassionfordestitutechildren" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-3 rounded-lg font-body font-semibold hover:brightness-110 transition-all"><Heart className="w-4 h-4" /> Donate via JustGiving</a>
